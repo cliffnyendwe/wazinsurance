@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/loginCard"
+    app:cardCornerRadius="@dimen/loginCardRadius"
+    android:elevation="5dp"
+    android:layout_gravity="center"
+    android:layout_marginTop="@dimen/loginViewsMargin"
+    android:layout_marginBottom="@dimen/loginViewsMargin"
+    android:background="@color/whiteCardColor">
+
+    <LinearLayout
+        style="@style/linearParent"
+        android:layout_gravity="center"
+        android:padding="@dimen/loginViewsMargin">
+
+        <TextView
+            style="@style/headerTextPrimary"
+            android:text="Create a New Customer"
+            android:id="@+id/register"
+            android:textSize="20sp"
+            android:layout_marginTop="@dimen/loginViewsMargin"/>
+
+        <android.support.design.widget.TextInputLayout
+            style="@style/parent"
+            android:layout_marginTop="@dimen/signup_text_margin_top">
+            <EditText
+                style="@style/modifiedEditText"
+                android:inputType="textPersonName"
+                android:id="@+id/nameEditText"
+                android:maxLines="1"
+                android:textSize="16sp"
+                android:hint="First Name"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            style="@style/parent"
+            android:layout_marginTop="@dimen/signup_text_margin_top">
+            <EditText
+                style="@style/modifiedEditText"
+                android:inputType="textPersonName"
+                android:id="@+id/lastEditText"
+                android:maxLines="1"
+                android:textSize="16sp"
+                android:hint="Last Name"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            style="@style/parent"
+            android:layout_marginTop="@dimen/signup_text_margin_top">
+            <EditText
+                style="@style/modifiedEditText"
+                android:inputType="textPersonName"
+                android:id="@+id/datedEditText"
+                android:maxLines="1"
+                android:textSize="16sp"
+                android:hint="Date Of Birth"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            style="@style/parent"
+            android:layout_marginTop="@dimen/signup_text_margin_top">
+            <EditText
+                style="@style/modifiedEditText"
+                android:inputType="textPassword"
+                android:id="@+id/kraEditText"
+                android:maxLines="1"
+                android:textSize="16sp"
+                android:hint="KRA Pin"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            style="@style/parent"
+            android:layout_marginTop="@dimen/signup_text_margin_top">
+            <EditText
+                style="@style/modifiedEditText"
+                android:inputType="textPersonName"
+                android:id="@+id/occupationEditText"
+                android:maxLines="1"
+                android:textSize="16sp"
+                android:hint="Occupation"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            style="@style/parent"
+            android:layout_marginTop="@dimen/signup_text_margin_top">
+            <EditText
+                style="@style/modifiedEditText"
+                android:id="@+id/numberEditText"
+                android:maxLines="1"
+                android:textSize="16sp"
+                android:hint="Phone Number"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            style="@style/parent"
+            android:layout_marginTop="@dimen/signup_text_margin_top">
+            <EditText
+                style="@style/modifiedEditText"
+                android:inputType="textEmailAddress"
+                android:id="@+id/emailEditText"
+                android:maxLines="1"
+                android:textSize="16sp"
+                android:hint="Email"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            style="@style/parent"
+            android:layout_marginTop="@dimen/signup_text_margin_top">
+            <EditText
+                style="@style/modifiedEditText"
+                android:inputType="textEmailAddress"
+                android:id="@+id/locationEditText"
+                android:maxLines="1"
+                android:textSize="16sp"
+                android:hint="Location"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            style="@style/parent"
+            android:layout_marginTop="@dimen/signup_text_margin_top">
+            <EditText
+                style="@style/modifiedEditText"
+                android:id="@+id/postalEditText"
+                android:maxLines="1"
+                android:textSize="16sp"
+                android:hint="Postal Address"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            style="@style/parent"
+            android:layout_marginTop="@dimen/signup_text_margin_top">
+            <EditText
+                style="@style/modifiedEditText"
+                android:inputType="textEmailAddress"
+                android:id="@+id/codeEditText"
+                android:maxLines="1"
+                android:textSize="16sp"
+                android:hint="Postal Code"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            style="@style/parent"
+            android:layout_marginTop="@dimen/signup_text_margin_top">
+            <EditText
+                style="@style/modifiedEditText"
+                android:inputType="textEmailAddress"
+                android:id="@+id/townEditText"
+                android:maxLines="1"
+                android:textSize="16sp"
+                android:hint="Town"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            style="@style/parent"
+            android:layout_marginTop="@dimen/signup_text_margin_top">
+            <EditText
+                style="@style/modifiedEditText"
+                android:inputType="textEmailAddress"
+                android:id="@+id/countryEditText"
+                android:maxLines="1"
+                android:textSize="16sp"
+                android:hint="Country"/>
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            style="@style/parent"
+            android:layout_marginTop="@dimen/signup_text_margin_top">
+            <EditText
+                style="@style/modifiedEditText"
+                android:inputType="textPersonName"
+                android:id="@+id/profileEditText"
+                android:maxLines="1"
+                android:textSize="16sp"
+                android:hint="Photo"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            style="@style/parent"
+            android:layout_marginTop="@dimen/signup_text_margin_top">
+            <EditText
+                style="@style/modifiedEditText"
+                android:inputType="textPersonName"
+                android:id="@+id/fullEditText"
+                android:maxLines="1"
+                android:textSize="16sp"
+                android:hint="NOK Fullname"/>
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            style="@style/parent"
+            android:layout_marginTop="@dimen/signup_text_margin_top">
+            <EditText
+                style="@style/modifiedEditText"
+                android:inputType="textPhonetic"
+                android:id="@+id/mobileEditText"
+                android:maxLines="1"
+                android:textSize="16sp"
+                android:hint="NOK Mobile Number"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            style="@style/parent"
+            android:layout_marginTop="@dimen/signup_text_margin_top">
+            <EditText
+                style="@style/modifiedEditText"
+                android:inputType="textPersonName"
+                android:id="@+id/relationEditText"
+                android:maxLines="1"
+                android:textSize="16sp"
+                android:hint="NOK Relation"/>
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            style="@style/parent"
+            android:layout_marginTop="@dimen/signup_text_margin_top">
+            <EditText
+                style="@style/modifiedEditText"
+                android:inputType="textPersonName"
+                android:id="@+id/agentEditText"
+                android:maxLines="1"
+                android:textSize="16sp"
+                android:hint="Agent Code"/>
+        </android.support.design.widget.TextInputLayout>
+
+
+        <Button
+            style="@style/loginButton"
+            android:id="@+id/createButton"
+            android:layout_gravity="center"
+            android:onClick="send"
+            android:text="Create" />
+
+        <TextView
+            style="@style/parent"
+            android:textAlignment="center"
+            android:id="@+id/already"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/primaryTextColor"
+            android:layout_marginTop="@dimen/loginViewsMargin"/>
+
+        <TextView
+            style="@style/parent"
+            android:textAlignment="center"
+            android:id="@+id/waz"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/primaryTextColor"
+            android:layout_marginTop="@dimen/loginViewsMargin"/>
+
+
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>
